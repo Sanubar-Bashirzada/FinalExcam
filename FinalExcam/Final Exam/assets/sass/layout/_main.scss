@@ -1,0 +1,287 @@
+// carusel section sccs and responsive
+.myContainer{
+    width: 100%;
+  
+        .caruselBox{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 800px;
+            height:300px ;
+            position: absolute;
+            z-index: 7;
+            color: white;
+            border: 1px solid black;
+            top: 100px;
+            background-color:black;
+            left: 50%;
+            transform: translate(-50%,0);
+            text-align: center;
+            opacity: 0.8;
+           z-index: 1;
+           font-size: 24px;
+          
+
+            .readBtn{
+                width: 100px;
+                height: 40px;
+                background-color: #ffa800;
+                color: white;
+                font-size: 12px;
+              
+                
+            }
+           
+      
+    }
+}
+
+ 
+@media only screen and (max-width:768px) {
+    .caruselBox{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 200px;
+        height:100px ;
+        position: absolute;
+        z-index: 7;
+        color: white;
+        border: 1px solid black;
+        top: 10px !important;
+        background-color:black;
+        left: 50%;
+        text-align: center;
+        opacity: 0.8;
+       z-index: 1;
+       font-size: 10px;
+   
+}
+}
+
+
+//BuySell section sccs and responsive
+.myContainerBuy{
+    width: 100%;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #f5f9fa;
+    display: flex;
+   
+    .buySellImg{
+        width: 100% !important;
+    }
+    .buySell{
+        display: flex;
+        width: 80%;
+        justify-content:space-between;
+        margin-top: 60px;
+        
+
+    }
+    .boxBuy{
+        width: 100px;
+        height: 5px;
+        background-color: #ffa800;
+        margin-bottom: 10px;
+    }
+    .morbi{
+        width: 450px;
+    }
+    .take{
+        color: #94938d;
+    }
+    .buyP{
+        color: black;
+        font-size: 30px;
+    }
+    .readmore{
+        width: 200px;
+        height: 60px;
+        color: white;
+        background-color: #ffa800;
+        border: none;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .buySell{
+       flex-direction: column;
+        margin-top: 30px;
+        
+        .morbi{
+            width: 300px;
+        }
+        .buySellImg{
+            width: 60% !important;
+        }
+
+    }
+}
+
+
+//section simple
+
+#myContainerSimple{
+    width: 100%;
+    background-color: #f5f9fa;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+#simple{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 70px;
+   
+}
+.simpleBox{
+    width: 100px;
+    height: 5px;
+    background-color: #ffa800;
+}
+#cardBoxs{
+    display: flex;
+
+}
+.take{
+    color: #94938d;
+    margin-top: 20px;
+}
+.simpleP{
+    color: black;
+    font-size: 30px;
+}
+#cardBoxs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.btndesign{
+    border: none;
+    width: 100px;
+    background-color: #ffa800;
+    color: white;
+     
+   }
+   #create{
+    a{
+       
+        color: white;
+    }
+   }
+
+
+//js da yaranan cartin classlari
+
+.cardBox{
+    width: 300px;
+    height: 300px;
+    position: relative;
+   gap: 20px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgJsAdd{
+    position: absolute;
+    top: 0;
+}
+.writeDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.titleWrite{
+    color: black;
+    font-size: 24px;
+}
+.contentWrite{
+    color: #94938d;
+    font-size: 15px;
+}
+
+
+//section latest scss
+
+.myContainerLatest{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 100px;
+    flex-direction: column;
+    .latest{
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        gap: 30px;
+        .card1{
+            width: 300px;
+            height: 500px;
+            background-image: url(https://preview.colorlib.com/theme/invest/images/news_1.jpg ) ;
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: contain;
+        }
+        .card2{
+            width: 300px;
+            height: 500px;
+            background-image: url(https://preview.colorlib.com/theme/invest/images/news_2.jpg ) ;
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: contain;
+        }
+        .card3{
+            width: 300px;
+            height: 500px;
+            background-image: url(https://preview.colorlib.com/theme/invest/images/news_3.jpg ) ;
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: contain;
+           
+        }
+        .cardwrites{
+            display: flex;
+            flex-direction: column;
+          
+          margin-top: 300px;
+
+          .newrites{
+            color: black;
+            font-size: 24px;
+          }
+          .morbi{
+            color: #94938d;
+            font-size: 16px;
+          }
+          .readmore{
+            border: none;
+    width: 100px;
+    background-color: #ffa800;
+    color: white;
+          }
+        }
+    }
+
+    .searchCards{
+        display: flex;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .latest{
+        flex-direction: column;
+    }
+}

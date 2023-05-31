@@ -1,0 +1,40 @@
+{
+  "imtahan": [
+    {
+      "id": 1,
+      "img": "https://preview.colorlib.com/theme/invest/images/info_1.png",
+      "writeOne": "Create your wallet",
+      "writeTwo": "Sed ut iaculis elit, quis varius mauris"
+    },
+    {
+      "id": 2,
+      "img": "https://preview.colorlib.com/theme/invest/images/info_2.png",
+      "writeOne": "Make payments",
+      "writeTwo": "Sed ut iaculis elit, quis varius mauris"
+    },
+    {
+      "id": 3,
+      "img": "https://preview.colorlib.com/theme/invest/images/info_3.png ",
+      "writeOne": "Buy or sell orders",
+      "writeTwo": "Sed ut iaculis elit, quis varius mauris"
+    },
+    {
+      "writeOne": "Enim sint labore non",
+      "writeTwo": "Tenetur autem perfer",
+      "img": "Consequatur Laborum",
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    }
+  ]
+}
